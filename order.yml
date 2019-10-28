@@ -21,3 +21,5 @@ eureka:
 idworker:
   workerId: 2
   datacenterId: 2
+env: 
+  dev
