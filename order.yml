@@ -1,8 +1,8 @@
-server:
+server
   port: 8081
 spring:
   application:
-  name: order
+    name: order
   datasource:
     password: root
     username: root
