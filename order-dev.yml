@@ -12,6 +12,11 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+   rabbitmq:
+    host: 116.196.118.178
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
