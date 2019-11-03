@@ -1,1 +1,15 @@
-
+spring:
+  application:
+    name: user
+  datasource:
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/SpringCloud?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+idworker:
+  workerId: 1
+  datacenterId: 1
