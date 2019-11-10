@@ -26,3 +26,7 @@ idworker:
   datacenterId: 2
 env:
   dev
+  
+girl:
+  age: 18
+  name: lili
