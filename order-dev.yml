@@ -30,3 +30,10 @@ env:
 girl:
   age: 25
   name: yangxin
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
